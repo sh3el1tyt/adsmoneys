@@ -1,0 +1,70 @@
+body {
+    margin:0px;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    --background_content: #0E1621 !important;
+    --header_background:#1F2936 !important;
+    --header_alternate_background:#1F2936 !important;
+    --header_text:white !important;
+    --font-tt: "TT Commons",-apple-system,system-ui,Helvetica Neue,Roboto,sans-serif !important;
+    --header_tint:white !important;
+    --thin-border:0px !important;
+    --background_suggestions:transparent !important;
+    --accent:#1ABC9C !important;
+    --tabbar_background:#1F2936 !important;
+    --search_bar_background:#1F2936 !important;
+    --search_bar_field_background:#141D29 !important;
+    --ios-easing: cubic-bezier(0.36,0.66,0.04,1) !important;
+    --android-easing: cubic-bezier(0.4,0,0.2,1) !important;
+}
+
+.videoButton {
+    margin-bottom: 10px;
+    background: #1F2936;
+    border-radius: 2px;
+    padding: 20px 10px;
+    position: relative;
+    overflow: hidden;
+    color: #F39C12;
+    transition: transform .1s linear,-webkit-transform .1s linear;
+}
+
+.videoButton:active {
+    transform: scale(.9);
+}
+
+.videoButton {
+    display: inline-block;
+    text-transform: uppercase;
+    height: 10px;
+    width: 580px;
+    font-weight: 400;
+    font-size: 21px;
+    transform-origin: 50% 50%;
+    margin-top: -10px;
+}
+    
+#videobonus {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 21px;
+    margin-right: 49px;
+    transform-origin: 50% 50%;
+}
+    
+.icon {
+    position: absolute;
+    top: 2px;
+    left: 15px;
+    margin-top: 5px;
+}
+
+.title {
+    font-weight: 300;
+    font-size: 21px;
+    margin-left: 50px;
+    margin-top: -10px;
+}
